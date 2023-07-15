@@ -1,0 +1,34 @@
+Workman Layout
+
+---------------------------------------------------------
+
+	-- -- -- --						-- -- -- --
+--	-- -- -- --						-- -- -- -- --
+--			-- --   		-- --   			--
+24 TOTAL KEYS
+
+L1 - Alpha 1
+
+	S  H  F  G					Y  N  E  O  
+A  X  M  C(CP)  V(PS)			K  L  ,  .  I(BS)
+Z(SH)		 L3  WI(CT)		SPC  L2			/(EN)
+
+Notes:
+- L2 macro to shift to next layer, but button click shifts you back to L1?
+- SR macro to enable shift for the next button click?
+
+L2 - Alpha 2/Num
+
+	D  R  W  B					J  F  U  P  
+Q  2  3  4  5					6  7  8  9  ;(DEL)
+1(SH)		?  WI(CT)		SPC  ?			0
+
+Notes:
+- SR macro to enable shift for the next button click?
+
+L3 - Arrow/Mouse
+
+	-  -  HM  END			-  UA  -  -  
+CT  -  -  -  -				LA  DA  RA  -  -
+SH			?  WI		SPC  ?				-
+
