@@ -2,8 +2,6 @@
 points:
   zones:
     matrix:
-      anchor:
-        rotate: 5
       columns:
         pinky:
           key:
@@ -15,8 +13,8 @@ points:
                 column_net: P20
         ring:
           key:
-            spread: 18
-            splay: -5
+            spread: 20
+            splay: 0
             origin: [-12, -19]
             stagger: 16
             rows:
@@ -26,7 +24,7 @@ points:
                 column_net: P18
         middle:
           key:
-            spread: 18
+            spread: 20
             stagger: 5
             rows:
               bottom:
@@ -35,7 +33,7 @@ points:
                 column_net: P14
         index:
           key:
-            spread: 18
+            spread: 20
             stagger: -6
             rows:
               bottom:
@@ -44,7 +42,7 @@ points:
                 column_net: P10
         root:
           key:
-            spread: 18
+            spread: 20
             stagger: -6
       rows:
         bottom:
@@ -54,13 +52,12 @@ points:
     thumb:
       anchor:
         ref: matrix_index_bottom
-        shift: [20, -25
-        ]
+        shift: [20, -30]
         rotate: 90
       columns:
         near:
           key:
-            splay: -90
+            splay: -100
             origin: [0,0]
           rows:
             home:
@@ -69,8 +66,9 @@ points:
         home:
           key:
             spread: 17
+            splay: -15
             rotate: 90
-            origin: [0,0]
+            origin: [-10,-20]
           rows:
             home:
               column_net: P9
@@ -131,7 +129,7 @@ outlines:
       operation: add
 
 pcbs:
-  tiny20:
+  occultist:
     outlines:
       main:
         outline: pcb_perimeter
@@ -153,19 +151,6 @@ pcbs:
           rotate: -90
         params:
           orientation: down
-      trrs:
-        what: trrs
-        where:
-          ref: matrix_pinky_home
-          shift: [2, 1.1u]
-          rotate: 0
-        params:
-          A: GND
-          B: GND
-          C: P1
-          D: VCC
-          reverse: true
-          symmetric: true
       reset:
         what: button
         where:
